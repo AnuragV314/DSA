@@ -95,7 +95,7 @@ int main()
 
     printf("\nEnter the data: ");
     scanf("%d", &num);
-    printf("where you want you insert, Enter the number: ");
+    printf("where you want you insert, Enter the data: ");
     scanf("%d", &n);
 
     new_node = (struct node *)malloc(sizeof(struct node));
@@ -125,7 +125,7 @@ int main()
 
     printf("\nEnter the data: ");
     scanf("%d", &num);
-    printf("where you want you insert, Enter the number: ");
+    printf("where you want you insert, Enter the data: ");
     scanf("%d", &n);
 
     new_node = (struct node *)malloc(sizeof(struct node));

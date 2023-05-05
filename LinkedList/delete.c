@@ -15,7 +15,7 @@ int main()
     int num;
     struct node *ptr, *new_node;
 
-    printf("Enter a number: ");
+    printf("Enter a data: ");
     scanf("%d", &num);
 
     while (num != -1)
@@ -38,7 +38,7 @@ int main()
             new_node->next = NULL;
         }
 
-        printf("Enter a number: ");
+        printf("Enter a data: ");
         scanf("%d", &num);
     }
 
@@ -94,7 +94,7 @@ int main()
     // 3. Deleting the Node After a Given Node in a Linked List
     int n;
     struct node *temp;
-    printf("Enter a number(Deleting the Node After this number): ");
+    printf("Enter a data(Deleting the Node After this data): ");
     scanf("%d", &n);
 
     ptr = start;
